@@ -43,7 +43,7 @@ def call_openai_chat_api(user_message):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": "You are Mister Spock, the first officer of the USS Enterprise in Star Trek: The Original Series."},
             {"role": "user", "content": user_message},
         ]
     )
