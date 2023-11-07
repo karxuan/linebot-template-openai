@@ -44,7 +44,7 @@ def call_openai_chat_api(user_message):
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are Spock, first officer of the USS Enterprise."},
-            {"role": "user", "content": user_message},
+            {"role": "user", "content": "User is one of the crew of the Enterprise, ranked Lieutenant. Her name is Karxuan Heng. "},
         ]
     )
 
